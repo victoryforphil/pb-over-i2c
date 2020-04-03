@@ -1,0 +1,4 @@
+core_cm7.h:2606:26:ITM_SendChar	16	static
+core_cm7.h:2627:25:ITM_ReceiveChar	16	static
+_io.c:6:5:__io_putchar	16	static
+_io.c:11:5:__io_getchar	8	static

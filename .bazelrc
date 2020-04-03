@@ -1,0 +1,10 @@
+
+build:stm32f7 --crosstool_top=//toolchain:arm-none-eabi
+build:stm32f7 --cpu=stm32f7
+build:stm32f7 --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
+
+
+build:jetson --crosstool_top=//toolchain:aarch64-linux-gnu
+build:jetson --cpu=arm64
+build:jetson --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
+
